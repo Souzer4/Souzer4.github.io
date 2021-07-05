@@ -74,7 +74,13 @@ input:checked ~ main section h2, section p{
     color: white;
 }
 
+input:checked ~ main .trocar_modo label{
+    background-color: rgb(82, 8, 23);
+   }
+
 input:checked ~ main .trocar_modo label span{
+    background-color: rgb(56, 1, 1);
+
     transform: translate(20px);
     }
 
@@ -86,7 +92,7 @@ input:checked ~ footer{
 
 /* PÁGINA INICIAL */
 main{
-    background-color: bisque;
+    background-color: rgb(255, 196, 196);
     transition: all ease-in-out .6s;
 }
 main .container{}
@@ -151,12 +157,13 @@ font-size: 14px;
     border-radius: 20px;
     padding: 4px; 
     margin: 0 auto;
+    transition: all ease-in-out .6s;
 }
 .trocar_modo label span{
     width: 20px;
     height: 20px;
     display: inline-block;
-    background-color: bisque;
+    background-color: rgb(255, 196, 196);
     border-radius: 100%;
     transition: all ease-in-out .6s;
 }
